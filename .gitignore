@@ -7,3 +7,20 @@ local.properties
 *.keystore
 
 dist/
+
+config/local/
+outputs/
+.cache/
+.android/
+.DS_Store
+*.apk
+*.aab
+*.aar
+*.log
+.env
+.env.*
+!.env.example
+*.p12
+*.pfx
+signing.properties
+keystore.properties

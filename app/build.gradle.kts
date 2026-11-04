@@ -1,7 +1,9 @@
 import java.util.Properties
 plugins { id("com.android.application"); kotlin("android"); id("org.jetbrains.kotlin.plugin.compose") }
+val privateDir = providers.gradleProperty("shuttlerefPrivateDir").orNull
+    ?.let { rootProject.file(it) } ?: rootProject.file("config/local")
 val privateConfig = Properties().apply {
-    val file = rootProject.file("../../config/local/android.properties")
+    val file = privateDir.resolve("android.properties")
     if (file.exists()) file.inputStream().use { load(it) }
 }
 fun config(name: String) = privateConfig.getProperty(name, "")
@@ -43,5 +45,5 @@ dependencies {
     add("tuyaImplementation", "com.thingclips.smart:thingsmart:7.11.0")
     add("tuyaImplementation", "com.alibaba:fastjson:1.1.67.android")
     add("tuyaImplementation", "com.squareup.okhttp3:okhttp-urlconnection:3.14.9")
-    add("tuyaImplementation", files(rootProject.file("../../config/local/android-sdk/security-algorithm-1.0.0-beta.aar")))
+    add("tuyaImplementation", files(privateDir.resolve("android-sdk/security-algorithm-1.0.0-beta.aar")))
 }

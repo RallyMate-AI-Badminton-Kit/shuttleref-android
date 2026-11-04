@@ -1,0 +1,56 @@
+{
+  "source_repository": "https://github.com/yahabibib/shuttleref",
+  "source_commit": "64889f4916aa63ef249572203a53b9c0c3e5b6d7",
+  "files": [
+    {
+      "path": "tests/support/harness/main.c",
+      "source_path": "source/linux/main.c",
+      "source_sha256": "b5a2260e19f92b605bd957c7981197e3c1aefac4286ca5b3585a8e4a0ef10fbd"
+    },
+    {
+      "path": "docs/dp-protocol.md",
+      "source_path": "docs/dp-protocol.md",
+      "source_sha256": "fe9577359245fd70905832117a0713c6eb80f1491f773f3b480559b3c3de5f63"
+    },
+    {
+      "path": "docs/history/2026-10-29-android-framework.md",
+      "source_path": "docs/handoff/2026-10-29-android-framework.md",
+      "source_sha256": "3ca8891230e21eaa5bf607fc6f9d0ecd7e4460fd056483f84e058bd28c4e4dd4"
+    },
+    {
+      "path": "scripts/start-emulator.command",
+      "source_path": "tools/android/start-emulator.command",
+      "source_sha256": "01198eefb9f54f95d25c05e1b7d289bc57d33bc91d9fb6e1d1c8afb4d5a45063"
+    },
+    {
+      "path": "tests/support/score-core/include/score_engine.h",
+      "source_path": "shuttleref/core/include/score_engine.h",
+      "source_sha256": "da4862ecc35983d2cd11136657b2adfab0db9d8a9a67e6c437e823a8d89556e9"
+    },
+    {
+      "path": "tests/support/score-core/src/score_engine.c",
+      "source_path": "shuttleref/core/src/score_engine.c",
+      "source_sha256": "68f054591bf39490fc4dc5c80d355ed3ebc0a73675a41f39dc5ab50ae5ccc691"
+    },
+    {
+      "path": "tests/support/score-core/include/match_session.h",
+      "source_path": "shuttleref/core/include/match_session.h",
+      "source_sha256": "7cb270c7d77e3c047c0116cb9f50b5d345387536da768d9aaf83f05a73cc5e2e"
+    },
+    {
+      "path": "tests/support/score-core/src/match_session.c",
+      "source_path": "shuttleref/core/src/match_session.c",
+      "source_sha256": "3b7d0c74f92ab375edf37c5ebe6ad058be82f3d19fe3714bec7a29c6e4aa6f4c"
+    },
+    {
+      "path": "tests/support/score-core/include/phone_command.h",
+      "source_path": "shuttleref/core/include/phone_command.h",
+      "source_sha256": "38f90ccd0fae14ae27258685490c68714c2fef0b2edb1fc336c754a0b400b2f6"
+    },
+    {
+      "path": "tests/support/score-core/src/phone_command.c",
+      "source_path": "shuttleref/core/src/phone_command.c",
+      "source_sha256": "2e7dc9ebe0f361d23b49c50c9dcc918b8689be26b05be1c75193f4d004517841"
+    }
+  ]
+}

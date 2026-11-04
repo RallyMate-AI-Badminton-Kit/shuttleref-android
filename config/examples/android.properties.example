@@ -1,0 +1,4 @@
+# Android SDK application credentials, not backend cloud keys.
+# Copy to ignored config/local/android.properties only for the Tuya flavor.
+TUYA_APP_KEY=REPLACE_WITH_ANDROID_APP_KEY
+TUYA_APP_SECRET=REPLACE_WITH_ANDROID_APP_SECRET
