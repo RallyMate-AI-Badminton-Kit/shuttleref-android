@@ -1,5 +1,10 @@
 # ShuttleRef Android · 羽小裁
 
+<!-- team-handbook:start -->
+> 团队协作：[成员入口](https://github.com/RallyMate-AI-Badminton-Kit/.github-private/blob/main/profile/README.md) · [开发与合并规范](https://github.com/RallyMate-AI-Badminton-Kit/.github-private/blob/main/handbook/workflow.md) · [负责人认领](https://github.com/RallyMate-AI-Badminton-Kit/.github-private/blob/main/handbook/ownership.md)
+<!-- team-handbook:end -->
+
+
 Kotlin + Jetpack Compose 原生 Android 基础客户端，独立维护账号、家庭、设备和基础计分链路。包名 `com.yahabib.shuttleref`，Android 8+。它目前不是 iOS 全功能移植版。
 
 ## 模块与功能
